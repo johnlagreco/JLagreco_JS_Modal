@@ -1,17 +1,13 @@
 $(document).ready(function(){
 
-		var $surrounding = $(".surrounding");
-
-		$("#butt").on("click",function(e){
+	$(".modal").on("click",function(e){
 		e.preventDefault();
-		
-		$para.attr("src", $(this).attr("src"));
-		$(".surrounding").show();
-		$(".surrounding").on("click",function(){
-			$(".surrounding").hide();
+		var $image = $("#tunnel");
+		$(".outer").show();
+		$image.attr("src", $(this).attr("src"));
+		$(".outer").on("click",function(){
+			$(".outer").hide();
 		});
 
 	});	
-
-	
 });
