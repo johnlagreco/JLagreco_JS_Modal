@@ -1,26 +1,24 @@
-.surrounding{
+.outer{
 	position: absolute;
 	width: 100%;
 	height:100%; 
 	top:0px;
 	bottom:0px;
 	background-color: rgba(0,0,0,.5);
-	/*display: none;*/
+	display: none;
 }
 
-#butt{
-	background-color: red;
-	
-}
-
-.center{
-	border: solid 5px black;
+img{
 	display: block;
-	background-color: white;
-	padding: 20px;
-	margin-top: 200px;
+	margin: 8px;
+	margin-top: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 250px;
-	width: 280px;
+	height: 350px;
+	width: 350px;
+}
+
+#words{
+	font: 15px arial, sans-serif;
+	text-align: center;
 }
