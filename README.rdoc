@@ -1,0 +1,5 @@
+Build a JavaScript Modal where a user can click on a link or something and display other hidden content like a photo with text. 
+
+When the user has clicked the link, the hidden content should open with an opaque background so the user can see it on top of all existing content.
+
+The user should be able to click anywhere on the screen to return to the original content.  
